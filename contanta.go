@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	const awalName = "Eko"
-	const endName = "Hidayat"
-	fmt.Println(name)
+	const (
+		awalName = "Eko"
+		endName  = "Hidayat"
+	)
+	fmt.Println(endName)
 
 	// awalName = "Hidayat"
 	// awalName = "Hidayat"
